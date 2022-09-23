@@ -1,0 +1,22 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Hello!!</h1>
+
+Whenever I save the buffer, the webpage reloads
+
+Errors get highlighted.
+
+Posts: <%= @posts.length %>
+
+Neat!
+
+<div id="posts">
+  <% @posts.each do |post| %>
+    <%= render post %>
+    <p>
+      <%= link_to "Show this post", post %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New post", new_post_path %>
