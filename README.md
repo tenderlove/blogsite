@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Demo of a lang server that automatically refreshes the Rails application.
 
-Things you may want to cover:
+This is just the application side.  All of the language server is implemented
+in a Rails engine.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please see [this repo](https://github.com/tenderlove/refreshing)
